@@ -2,7 +2,7 @@
 #define COLOR_CODING_REFERENCEMANUAL_H
 
 #include "convertColorpairString.h"
-#include "identifColorPairnumber.h"
+#include "identifyColorPairnumber.h"
 
 void PrintColorCodingReferenceManual();
 
