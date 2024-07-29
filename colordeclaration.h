@@ -1,5 +1,5 @@
-#ifndef COLOR_H
-#define COLOR_H
+#ifndef COLORDECLARATION_H
+#define COLORDECLARATION_H
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
@@ -19,4 +19,4 @@ ColorPair GetColorFromPairNumber(int pairNumber);
 int GetPairNumberFromColor(const ColorPair* colorPair);
 void PrintColorCodingReferenceManual();
 
-#endif // COLOR_H
+#endif // COLORDECLARATION_H
