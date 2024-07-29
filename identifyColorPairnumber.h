@@ -1,7 +1,7 @@
 #ifndef IDENTIFYCOLORPAIRNUMBER_H
 #define IDENTIFYCOLORPAIRNUMBER_H
 
-#include "colorcodedeclaration.h"
+#include "colordeclaration.h"
 
 ColorPair GetColorFromPairNumber(int pairNumber);
 
