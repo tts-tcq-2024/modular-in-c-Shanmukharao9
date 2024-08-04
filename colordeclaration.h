@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include <stdbool.h>
-#include "testNumberToPair.h"
+
 typedef enum {WHITE, RED, BLACK, YELLOW, VIOLET} MajorColor;
 typedef enum {BLUE, ORANGE, GREEN, BROWN, SLATE} MinorColor;
 
