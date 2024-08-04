@@ -3,6 +3,7 @@
 #ifndef COLORDECLARATION_H
 #define COLORDECLARATION_H
 
+#define MAX_COLORPAIR_NAME_CHARS 16
 #include <stdio.h>
 #include <assert.h>
 #include <stdbool.h>
@@ -19,7 +20,6 @@ extern const char* MajorColorNames[];
 extern const char* MinorColorNames[];
 extern int numberOfMajorColors;
 extern int numberOfMinorColors;
-
 void PrintColorCodingReferenceManual();
 
 #endif // COLORDECLARATION_H
