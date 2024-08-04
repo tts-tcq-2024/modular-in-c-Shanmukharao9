@@ -1,5 +1,6 @@
 #ifndef COLORDECLARATION_H
 #define COLORDECLARATION_H
+#include <stdio.h>
 #include <stdbool.h>
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
