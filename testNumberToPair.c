@@ -1,6 +1,7 @@
 #include "convertColorpairString.h"
 #include "identifyColorPairnumber.h"
 #include "testNumberToPair.h"
+#include "PairNumberFromColor.h"
 #include "colordeclaration.h"
 
 void testNumberToPair(int pairNumber, MajorColor expectedMajor, MinorColor expectedMinor) {
