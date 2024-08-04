@@ -1,5 +1,5 @@
 #include "convertColorpairString.h"
-#include "identifyColorParnumber.h"
+#include "identifyColorPairnumber.h"
 #include "testNumberToPair.h"
 #include "colordeclaration.h"
 
