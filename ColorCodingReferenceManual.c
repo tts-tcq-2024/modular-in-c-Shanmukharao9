@@ -1,5 +1,5 @@
 #include "ColorCodingReferenceManual.h"
-#include <stdio.h>
+
 void PrintColorCodingReferenceManual() {
     char colorPairNames[16];
     for (int pairNumber = 1; pairNumber <= numberOfMajorColors * numberOfMinorColors; pairNumber++) {
