@@ -7,12 +7,12 @@
 #include <assert.h>
 #include <stdbool.h>
 
-enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
-enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+typedef enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+typedef enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
 typedef struct {
-    enum MajorColor majorColor;
-    enum MinorColor minorColor;
+    MajorColor majorColor;
+    MinorColor minorColor;
 } ColorPair;
 
 extern const char* MajorColorNames[];
