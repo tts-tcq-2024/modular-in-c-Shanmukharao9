@@ -1,5 +1,5 @@
-#ifndef COLOR_CODING_REFERENCEMANUAL_H
-#define COLOR_CODING_REFERENCEMANUAL_H
+#ifndef COLORCODINGREFERENCEMANUAL_H
+#define COLORCODINGREFERENCEMANUAL_H
 
 #include "convertColorpairString.h"
 #include "identifyColorPairnumber.h"
